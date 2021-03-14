@@ -87,6 +87,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="..\..\PAD\Windows\Default.ini" />
+    <None Include="..\..\Recording\Viewer\RecordingMetadataDialog.h" />
     <None Include="..\..\Utilities\folderdesc.txt" />
     <None Include="..\..\Docs\License.txt" />
     <None Include="..\..\x86\microVU_Alloc.inl" />
@@ -331,6 +332,8 @@
     <ClCompile Include="..\..\PAD\Windows\WindowsMouse.cpp" />
     <ClCompile Include="..\..\PAD\Windows\WndProcEater.cpp" />
     <ClCompile Include="..\..\PAD\Windows\XInputEnum.cpp" />
+    <ClCompile Include="..\..\Recording\Viewer\RecordingFileGridTable.cpp" />
+    <ClCompile Include="..\..\Recording\Viewer\RecordingMetadataDialog.cpp" />
     <ClCompile Include="..\..\SPU2\DplIIdecoder.cpp" />
     <ClCompile Include="..\..\SPU2\debug.cpp" />
     <ClCompile Include="..\..\SPU2\RegLog.cpp" />
@@ -382,6 +385,7 @@
     <ClCompile Include="..\..\ps2\LegacyDmac.cpp" />
     <ClCompile Include="..\..\ps2\pgif.cpp" />
     <ClCompile Include="..\..\Recording\InputRecordingControls.cpp" />
+    <ClCompile Include="..\..\Recording\Viewer\InputRecordingViewer.cpp" />
     <ClCompile Include="..\..\Recording\VirtualPad\VirtualPad.cpp" />
     <ClCompile Include="..\..\Recording\VirtualPad\VirtualPadData.cpp" />
     <ClCompile Include="..\..\Recording\VirtualPad\VirtualPadResources.cpp" />
@@ -693,6 +697,7 @@
     <ClInclude Include="..\..\PAD\Windows\WindowsMouse.h" />
     <ClInclude Include="..\..\PAD\Windows\WndProcEater.h" />
     <ClInclude Include="..\..\PAD\Windows\XInputEnum.h" />
+    <ClInclude Include="..\..\Recording\Viewer\RecordingFileGridTable.h" />
     <ClInclude Include="..\..\SPU2\Config.h" />
     <ClInclude Include="..\..\SPU2\Global.h" />
     <ClInclude Include="..\..\SPU2\interpolate_table.h" />
@@ -721,6 +726,7 @@
     <ClInclude Include="..\..\Recording\NewRecordingFrame.h" />
     <ClInclude Include="..\..\Recording\InputRecordingFile.h" />
     <ClInclude Include="..\..\Recording\PadData.h" />
+    <ClInclude Include="..\..\Recording\Viewer\InputRecordingViewer.h" />
     <ClInclude Include="..\..\Recording\VirtualPad\VirtualPad.h" />
     <ClInclude Include="..\..\Recording\VirtualPad\VirtualPadData.h" />
     <ClInclude Include="..\..\Recording\VirtualPad\VirtualPadResources.h" />
