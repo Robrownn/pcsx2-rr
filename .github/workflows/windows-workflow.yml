@@ -26,7 +26,7 @@ on:
   workflow_dispatch:
     inputs:
       retainDebugArtifacts:
-        description: 'Retain debug artifacts (.pdb/.exp/.lib) for an easier debugging experience'
+        description: 'Retain debug artifacts (.pdb/.exp/.lib) for an easier debugging experience. (true|false)'
         required: true
         default: 'false'
 
